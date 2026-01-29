@@ -53,6 +53,13 @@ Short summary on functionality and used technologies.
 
 Other build commands can be listed using `heft --help`.
 
+## Local debugging (Heft)
+
+1. Start the local workbench:
+   - `heft start`
+2. Open the site page configured in `config/serve.json` with the SPFx debug query string:
+   - `https://erbgroup.sharepoint.com/sites/dev_communication/SitePages/home.aspx?loadSPFX=true&debugManifestsFile=https://localhost:4321/temp/manifests.js`
+
 ## Features
 
 Description of the extension that expands upon high-level summary above.
