@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ErbConnectGlobalNav"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="86c9406c-5159-4b29-afbf-ecd922eb5c30"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

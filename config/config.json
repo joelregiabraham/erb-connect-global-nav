@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "erb-connect-global-nav-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/erbConnectGlobalNav/ErbConnectGlobalNavApplicationCustomizer.js",
+          "manifest": "./src/extensions/erbConnectGlobalNav/ErbConnectGlobalNavApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ErbConnectGlobalNavApplicationCustomizerStrings": "lib/extensions/erbConnectGlobalNav/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.22.0",
+    "sdksVersions": {},
+    "version": "1.22.1",
+    "libraryName": "erb-connect-global-nav",
+    "libraryId": "4d047b66-c232-4c88-a1c5-53d939f67c4f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "erb-connect-global-nav",
+    "solutionShortDescription": "erb-connect-global-nav description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://erbgroup.sharepoint.com/sites/dev_communication/SitePages/home.aspx",
+      "customActions": {
+        "86c9406c-5159-4b29-afbf-ecd922eb5c30": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "erbConnectGlobalNav": {
+      "pageUrl": "https://erbgroup.sharepoint.com/sites/dev_communication/SitePages/home.aspx",
+      "customActions": {
+        "86c9406c-5159-4b29-afbf-ecd922eb5c30": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
